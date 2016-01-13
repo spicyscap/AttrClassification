@@ -7,6 +7,13 @@
 #適用於SogouCS . SogouCA 兩種資料
 
 #前置作業
+
+#需要檔案 : (放在同義層)
+#1. 字典.停用詞
+#2. 一存放N個TXT檔的語料庫資料夾(SogouCS / SogouCA)
+#3. 此程式(process_Sogou.py)
+#4. 訓練程式(train_word2vec_model.py)
+
 #確認有字典 & 停用詞，程式採用以下資源，可自我修改
 #'dict.big.tra.txt'  #預設字典
 #'dict_twstd_tfidf.txt'  #中文分詞詞庫(TFIDF)
