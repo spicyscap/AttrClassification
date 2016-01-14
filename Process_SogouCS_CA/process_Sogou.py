@@ -30,7 +30,7 @@
 
 #4.使用完畢即可得到一堆資料夾跟一個TXT檔，TXT檔的名稱-->[資料夾名稱]_5_Combine.txt
 #5.使用train_word2vec_model.py，訓練word2Vec模型
-#-->在命令列執行 'train_word2vec_model.py [資料夾名稱]_5_Combine.txt [資料夾名稱]_5_Combine.model [資料夾名稱]_5_Combine.vector'
+#-->在命令列執行 'python train_word2vec_model.py [資料夾名稱]_5_Combine.txt [資料夾名稱]_5_Combine.model [資料夾名稱]_5_Combine.vector'
 
 #######################
 import sys
